@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "app.ts",
   "scripts": {
-    "start": "node app",
-    "build": "tsc",
-    "serve": "node dist/app.js"
+    "start": "node server"
   },
   "keywords": [],
   "author": "",
