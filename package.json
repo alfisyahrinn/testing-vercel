@@ -1,0 +1,22 @@
+{
+  "name": "testing-deploy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.ts",
+    "build": "tsc",
+    "serve": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.7",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
